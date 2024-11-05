@@ -1,5 +1,5 @@
 import pygame
-# import time
+import time
 # import random
 # import numpy as np
 import os
@@ -50,5 +50,7 @@ while RUN:
         Grid.HandleMouse(mouseX, mouseY)
 
     pygame.display.update()
+    time.sleep(0.5)
+    
 
 pygame.quit()
